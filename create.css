@@ -1,0 +1,103 @@
+#steve {
+    height: 800px;
+    top: 170px;
+    left: 0px;
+    position: absolute;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 1
+}
+
+#steve:active {
+    animation-duration: 0s;
+}
+
+#flash {
+    font-family: "Comic Sans MS";
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 2
+}
+
+
+
+#container {
+    height: 50px;
+}
+
+
+
+@keyframes flash {
+    0% {
+        background-color: black;
+    }
+    10% {
+        background-color: black;
+    }
+    20% {
+        background-color: black;
+    }
+    30% {
+        background-color: black;
+    }
+    50% {
+        background-color: black;
+    }
+    60% {
+        background-color: black;
+    }
+    70% {
+        background-color: white;
+    }
+    80% {
+        background-color: white;
+    }
+    90% {
+        background-color: black;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
